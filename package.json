@@ -1,29 +1,18 @@
 {
-  "dependencies": {
-    "jsonwebtoken": "^8.5.1"
-  },
-  "name": "deep-thoughts",
-  "description": "",
+  "name": "mern-social-mediaa",
   "version": "1.0.0",
+  "description": "",
   "main": "server/server.js",
-  "devDependencies": {
-    "concurrently": "^7.3.0"
-  },
   "scripts": {
     "start": "node server/server.js",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hvphan1993/deep-thoughts.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hvphan1993/deep-thoughts/issues"
-  },
-  "homepage": "https://github.com/hvphan1993/deep-thoughts#readme"
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
 }
